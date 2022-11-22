@@ -15,8 +15,9 @@ public class PLayerMovement : MonoBehaviour
     [SerializeField] private float moveSpeed = 3.5f;
     [SerializeField] private float jumpForce = 7f;
 
-    private enum MovementState { idle, running, jumping, falling, idleAnimation_1 }
-    private MovementState state = MovementState.idle;
+    private enum MovementState { idle, running, jumping, falling }
+
+    [SerializeField] private AudioSource jumpSoundEffect;
 
     // Start is called before the first frame update
     void Start()
@@ -31,11 +32,20 @@ public class PLayerMovement : MonoBehaviour
     private void Update()
     {
         dirX = Input.GetAxisRaw("Horizontal");
-        rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
+        if (rb.bodyType == RigidbodyType2D.Dynamic)
+        {
+            rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
+        }
+            
 
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {
-            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            jumpSoundEffect.Play();
+            if (rb.bodyType == RigidbodyType2D.Dynamic)
+            {
+                rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            }
+            
         }
 
         UpdateAnimationState();
@@ -48,12 +58,12 @@ public class PLayerMovement : MonoBehaviour
 
         if (dirX > 0f)
         {
-            sprite.flipX = true;
+            sprite.flipX = false;
             state = MovementState.running;
         }
         else if (dirX < 0f)
         {
-            sprite.flipX = false;
+            sprite.flipX = true;
             state = MovementState.running;
         }
         else
@@ -79,4 +89,9 @@ public class PLayerMovement : MonoBehaviour
         return Physics2D.BoxCast(coll.bounds.center, coll.bounds.size, 0f, Vector2.down, .1f, jumpableGround);
     }
 
+    public void End()
+    {
+        rb.bodyType = RigidbodyType2D.Static;
+        anim.SetTrigger("end");
+    }
 }

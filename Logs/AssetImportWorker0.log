@@ -15,7 +15,7 @@ C:/Users/wei/UnityProject/CattyGoHome
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64020
+56523
 Successfully changed project path to: C:/Users/wei/UnityProject/CattyGoHome
 C:/Users/wei/UnityProject/CattyGoHome
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/wei/UnityProject/CattyGoHome
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 67.84 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 78.90 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.8f1 (b30333d56e81)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -63,53 +63,53 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56856
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56380
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003076 seconds.
+Registered in 0.003264 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 70.50 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 68.61 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.458 seconds
+- Completed reload, in  0.474 seconds
 Domain Reload Profiling:
-	ReloadAssembly (458ms)
-		BeginReloadAssembly (50ms)
+	ReloadAssembly (474ms)
+		BeginReloadAssembly (49ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (333ms)
+		EndReloadAssembly (352ms)
 			LoadAssemblies (49ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (74ms)
+			SetupTypeCache (72ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (20ms)
-			SetupLoadedEditorAssemblies (206ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (220ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (44ms)
+				InitializePlatformSupportModulesInManaged (47ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (71ms)
+				RefreshPlugins (69ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (61ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
+				ProcessInitializeOnLoadAttributes (73ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004213 seconds.
+Registered in 0.004211 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\wei\UnityProject\CattyGoHome\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\wei\UnityProject\CattyGoHome\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -117,46 +117,46 @@ Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 63.77 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 85.23 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.931 seconds
+- Completed reload, in  0.980 seconds
 Domain Reload Profiling:
-	ReloadAssembly (931ms)
+	ReloadAssembly (981ms)
 		BeginReloadAssembly (185ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (128ms)
-		EndReloadAssembly (656ms)
-			LoadAssemblies (53ms)
+			CreateAndSetChildDomain (115ms)
+		EndReloadAssembly (716ms)
+			LoadAssemblies (56ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (183ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (344ms)
+			SetupTypeCache (167ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (409ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
+				InitializePlatformSupportModulesInManaged (17ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (64ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (157ms)
+				RefreshPlugins (85ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (197ms)
 				ProcessInitializeOnLoadMethodAttributes (34ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.49 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4067 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 44 unused Assets / (222.3 KB). Loaded Objects now: 4519.
-Memory consumption went from 151.3 MB to 151.1 MB.
-Total: 2.754700 ms (FindLiveObjects: 0.262800 ms CreateObjectMapping: 0.173200 ms MarkObjects: 2.183200 ms  DeleteObjects: 0.134700 ms)
+Unloading 4088 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (180.9 KB). Loaded Objects now: 4543.
+Memory consumption went from 154.3 MB to 154.1 MB.
+Total: 3.093300 ms (FindLiveObjects: 0.198400 ms CreateObjectMapping: 0.108900 ms MarkObjects: 2.668400 ms  DeleteObjects: 0.116800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -170,280 +170,64 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 32346.585562 seconds.
-  path: Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/Open Sprite Shape.prefab
-  artifactKey: Guid(86ae7de409eb54f619fb1328e4d42480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/Open Sprite Shape.prefab using Guid(86ae7de409eb54f619fb1328e4d42480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c441dadaa579886ec68944c27df790f') in 0.126838 seconds 
+  Time since last request: 287723.118456 seconds.
+  path: Assets/Scenes/Scene 2.unity
+  artifactKey: Guid(3d8f3cb6f0fb0fc45b23669ead458d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene 2.unity using Guid(3d8f3cb6f0fb0fc45b23669ead458d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a7c48867ddc1724663a68939a37c70') in 0.008602 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/Closed Sprite Shape.prefab
-  artifactKey: Guid(c0583b4e855c74b8c82e7b9b5efb5ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/Closed Sprite Shape.prefab using Guid(c0583b4e855c74b8c82e7b9b5efb5ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eeccdc622268f1041f8bb990b0d4966') in 0.014518 seconds 
+  Time since last request: 55.590936 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/Pink.png
+  artifactKey: Guid(348c3b734b11d3b4aa5c69e25b7113e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/Pink.png using Guid(348c3b734b11d3b4aa5c69e25b7113e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0459930cfe75b3f6e94463311de1babb') in 0.078635 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/NYAN_dots/Prefabs/Cat_Black.prefab
-  artifactKey: Guid(cf7671a63cac35f478ccc5bfe7023c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NYAN_dots/Prefabs/Cat_Black.prefab using Guid(cf7671a63cac35f478ccc5bfe7023c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e7e7b60301da4206e04ac3e31ff51f4') in 0.047448 seconds 
+  Time since last request: 16.815314 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/Pink.png
+  artifactKey: Guid(348c3b734b11d3b4aa5c69e25b7113e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/Pink.png using Guid(348c3b734b11d3b4aa5c69e25b7113e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55272ae68aaf333920b341281b2a27ae') in 0.007595 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2829.223338 seconds.
-  path: Assets/NYAN_dots/Sprites/Move/Run/Black_Run2.png
-  artifactKey: Guid(2d7f8c1008a9b5b45aafb1dc0d2a9a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NYAN_dots/Sprites/Move/Run/Black_Run2.png using Guid(2d7f8c1008a9b5b45aafb1dc0d2a9a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0029af15f6d5682c23c221b16b3a8883') in 0.054579 seconds 
+  Time since last request: 11.971778 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/Pink.png
+  artifactKey: Guid(348c3b734b11d3b4aa5c69e25b7113e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/Pink.png using Guid(348c3b734b11d3b4aa5c69e25b7113e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c2fa0c10ac87c85747b1a58ac71473') in 0.041033 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/NYAN_dots/Sprites/Move/Run/Calico_Run2.png
-  artifactKey: Guid(b0a4cfb8d7167b54fa7a414ddde640f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NYAN_dots/Sprites/Move/Run/Calico_Run2.png using Guid(b0a4cfb8d7167b54fa7a414ddde640f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8489f17f916098f7e18d62786e636854') in 0.038594 seconds 
+  Time since last request: 1249.743526 seconds.
+  path: Assets/Prefabs/Terrain.prefab
+  artifactKey: Guid(6cc25fb24e5713846a49c7a2f73a62fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Terrain.prefab using Guid(6cc25fb24e5713846a49c7a2f73a62fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf46e78c7d428fae992aaae5e590ae5') in 0.069214 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/NYAN_dots/Sprites/Move/Run/Calico_Run1.png
-  artifactKey: Guid(560c19a19b544f442a06a604ea679114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NYAN_dots/Sprites/Move/Run/Calico_Run1.png using Guid(560c19a19b544f442a06a604ea679114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b930f541325d9d2f947bca2fa1343ae0') in 0.041757 seconds 
+  Time since last request: 565.516444 seconds.
+  path: Assets/WeChat Image_20221122220555.jpg
+  artifactKey: Guid(8525ee7e8c11f0942ab1da57316c9c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeChat Image_20221122220555.jpg using Guid(8525ee7e8c11f0942ab1da57316c9c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9bb25ee37434b9eeef67a7ccbbbb2a6') in 0.267658 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/NYAN_dots/Sprites/Move/Run/Gray_Run1.png
-  artifactKey: Guid(702c9a89ecdde024d808b4a78ad6434a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NYAN_dots/Sprites/Move/Run/Gray_Run1.png using Guid(702c9a89ecdde024d808b4a78ad6434a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c305b108eb11343333639ce2450f06c') in 0.038621 seconds 
+  Time since last request: 0.000032 seconds.
+  path: Assets/WeChat Image_20221122220619.jpg
+  artifactKey: Guid(316b880c3ffb34244b16e886803ba5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeChat Image_20221122220619.jpg using Guid(316b880c3ffb34244b16e886803ba5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62769843d0396799d2ceaa9a526bec4e') in 0.281365 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/NYAN_dots/Sprites/Move/Run/Tabby_Run1.png
-  artifactKey: Guid(014eb04058e9f124c8b813566b2d4519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NYAN_dots/Sprites/Move/Run/Tabby_Run1.png using Guid(014eb04058e9f124c8b813566b2d4519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79cfa679d72cbbc228c976d0f223c6cc') in 0.039119 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 81.330351 seconds.
-  path: Assets/NYAN_dots/Sprites/Move/Walk
-  artifactKey: Guid(5628719fbb2687f46806932962147afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NYAN_dots/Sprites/Move/Walk using Guid(5628719fbb2687f46806932962147afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a919931efdcd9da1226690ae873aec9') in 0.004299 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.059385 seconds.
-  path: Assets/NYAN_dots/Sprites/Move/Walk/Black_Walk1.png
-  artifactKey: Guid(8e44ba57da541e143aeffacf56cde0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NYAN_dots/Sprites/Move/Walk/Black_Walk1.png using Guid(8e44ba57da541e143aeffacf56cde0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea251eb9f6b10af2d0bb21490aacb8a') in 0.035928 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/NYAN_dots/Sprites/Move/Walk/Gray_Walk2.png
-  artifactKey: Guid(62f81dc6471f35f4fbfb2704f24dd701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NYAN_dots/Sprites/Move/Walk/Gray_Walk2.png using Guid(62f81dc6471f35f4fbfb2704f24dd701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17b2c1a5b9b8ed4c91433d4f64a94536') in 0.035255 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/NYAN_dots/Sprites/Move/Walk/Calico_Walk2.png
-  artifactKey: Guid(82d19c99951a62a40b4fa305b17afd75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NYAN_dots/Sprites/Move/Walk/Calico_Walk2.png using Guid(82d19c99951a62a40b4fa305b17afd75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abc554bb33262cd1690f805e9af97e2f') in 0.038014 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/NYAN_dots/Sprites/Move/Walk/Tabby_Walk2.png
-  artifactKey: Guid(813c64a628c9c5640970a29a844c2d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NYAN_dots/Sprites/Move/Walk/Tabby_Walk2.png using Guid(813c64a628c9c5640970a29a844c2d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7b54ddc2e819bc34d0d8cb40ebe2f81') in 0.042144 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/NYAN_dots/Sprites/Move/Walk/White_Walk1.png
-  artifactKey: Guid(b12163ef1f4bfc847aa42e60c9ce6dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NYAN_dots/Sprites/Move/Walk/White_Walk1.png using Guid(b12163ef1f4bfc847aa42e60c9ce6dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '183448644a87408ad5b22df1a5e45cd3') in 0.039241 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/NYAN_dots/Sprites/Move/Walk/Gray_Walk1.png
-  artifactKey: Guid(286ed66f937962f4a9825d8dd0420cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NYAN_dots/Sprites/Move/Walk/Gray_Walk1.png using Guid(286ed66f937962f4a9825d8dd0420cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '217fb37c81c2b1159b3c410bce462ba5') in 0.037417 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.927841 seconds.
-  path: Assets/NYAN_dots/Sprites/Other16/Calico/Calico_blink.png
-  artifactKey: Guid(5b5b35507a360f44e96d9f1f883d4921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NYAN_dots/Sprites/Other16/Calico/Calico_blink.png using Guid(5b5b35507a360f44e96d9f1f883d4921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab82ea6c8cb234a33c0cffeed2367572') in 0.016650 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/NYAN_dots/Sprites/Other16/Calico/Calico_ennui.png
-  artifactKey: Guid(307ece8d5096b3a48bb52bcd6c70c6ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NYAN_dots/Sprites/Other16/Calico/Calico_ennui.png using Guid(307ece8d5096b3a48bb52bcd6c70c6ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1307e6ff0fe8dfd58f9031f301b80aab') in 0.016880 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/NYAN_dots/Sprites/Other16/Calico/Calico_sleep2.png
-  artifactKey: Guid(2aa899c90eaaada49bf6f1bce84260c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NYAN_dots/Sprites/Other16/Calico/Calico_sleep2.png using Guid(2aa899c90eaaada49bf6f1bce84260c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1088485425da6bb887456f1ccb76e8a2') in 0.015329 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/NYAN_dots/Sprites/Other16/Calico/Calico_sleep1.png
-  artifactKey: Guid(73379d29ae1d3fa4a897fbe43d067269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NYAN_dots/Sprites/Other16/Calico/Calico_sleep1.png using Guid(73379d29ae1d3fa4a897fbe43d067269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3175a0a4c9d066b366977083127611a') in 0.018546 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/NYAN_dots/Sprites/Other16/Calico/Calico_lick.png
-  artifactKey: Guid(2baabd51959ed1048ae12f2496f505ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NYAN_dots/Sprites/Other16/Calico/Calico_lick.png using Guid(2baabd51959ed1048ae12f2496f505ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c76eb644c504ef2b39c031d13585fbdc') in 0.017764 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/NYAN_dots/Sprites/Other16/Calico/Calico_sway.png
-  artifactKey: Guid(bab92219bf8fbfa4d98c0686fdb72ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NYAN_dots/Sprites/Other16/Calico/Calico_sway.png using Guid(bab92219bf8fbfa4d98c0686fdb72ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a97f006f48ae3f0a12e84839a417fb83') in 0.017219 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 64.804794 seconds.
-  path: Assets/NYAN_dots/Sprites/Other16/Black/Black_blink.png
-  artifactKey: Guid(26d4a17240effea40ac1424be438e232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NYAN_dots/Sprites/Other16/Black/Black_blink.png using Guid(26d4a17240effea40ac1424be438e232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd6f3c1b16bd507abf1cb714dd79213') in 0.032805 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/NYAN_dots/Sprites/Other16/Black/Black_sleep1.png
-  artifactKey: Guid(d830ef84d5335104da21709bb50fcf5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NYAN_dots/Sprites/Other16/Black/Black_sleep1.png using Guid(d830ef84d5335104da21709bb50fcf5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc501183cfa2af798187f17e20c58a5f') in 0.077032 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/NYAN_dots/Sprites/Other16/Black/Black_sleep2.png
-  artifactKey: Guid(870f4837bc86e3f4caf193ede923f82d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NYAN_dots/Sprites/Other16/Black/Black_sleep2.png using Guid(870f4837bc86e3f4caf193ede923f82d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfaa6a5276bb2536d4b9486b88bd64ef') in 0.059037 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/NYAN_dots/Sprites/Other16/Black/Black_lick.png
-  artifactKey: Guid(4d6fecf8b4465f5468c232f71bda330f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NYAN_dots/Sprites/Other16/Black/Black_lick.png using Guid(4d6fecf8b4465f5468c232f71bda330f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c5a17326e676b9c9d33bbe8e6752345') in 0.098341 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/NYAN_dots/Sprites/Other16/Black/Black_relax.png
-  artifactKey: Guid(789057e7b98fa3e42b3c582a35a15355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NYAN_dots/Sprites/Other16/Black/Black_relax.png using Guid(789057e7b98fa3e42b3c582a35a15355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea8e311d18d7ef389f57609ea721ce8') in 0.016478 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/NYAN_dots/Sprites/Other16/Black/Black_dig.png
-  artifactKey: Guid(5d6faf4c419ebdc4e85ed86672d76d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NYAN_dots/Sprites/Other16/Black/Black_dig.png using Guid(5d6faf4c419ebdc4e85ed86672d76d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf8726e4f22f2d82816e8848849f84a1') in 0.016744 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/NYAN_dots/Sprites/Other16/Black/Black_sniff.png
-  artifactKey: Guid(406c2dce9a7f1e54cb570cfd6dcd221c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NYAN_dots/Sprites/Other16/Black/Black_sniff.png using Guid(406c2dce9a7f1e54cb570cfd6dcd221c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f38a6071e38b94d8a6e00cb8aafb012') in 0.017601 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/NYAN_dots/Sprites/Other16/Black/Black_tail.png
-  artifactKey: Guid(4e1c76c8e95503f4897390ff0534dc10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NYAN_dots/Sprites/Other16/Black/Black_tail.png using Guid(4e1c76c8e95503f4897390ff0534dc10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '588e9b495397568ba73ece0cc58e04e3') in 0.016958 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 32.190020 seconds.
-  path: Assets/NYAN_dots/Sprites/Other16/White/White_Blink.png
-  artifactKey: Guid(545f35432a0c95a4eacf8e05212040fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NYAN_dots/Sprites/Other16/White/White_Blink.png using Guid(545f35432a0c95a4eacf8e05212040fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da4b22c780e7b6c3cb8bf1120676334') in 0.017848 seconds 
+  Time since last request: 0.000032 seconds.
+  path: Assets/WeChat Image_20221122220642.jpg
+  artifactKey: Guid(fb20881db1525bf479e89b6bcad6f308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeChat Image_20221122220642.jpg using Guid(fb20881db1525bf479e89b6bcad6f308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1587bb5ac6cf73d15f21af76b0ac05eb') in 0.040920 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000029 seconds.
-  path: Assets/NYAN_dots/Sprites/Other16/White/White_Sleep2.png
-  artifactKey: Guid(fb9ad37858efd4e44a66369b54f828cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NYAN_dots/Sprites/Other16/White/White_Sleep2.png using Guid(fb9ad37858efd4e44a66369b54f828cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c73f6ebd1c36e5139eec18be3e8a432') in 0.017078 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/NYAN_dots/Sprites/Other16/White/White_Scratch.png
-  artifactKey: Guid(a521c96aceb10704ba3ebf9eedab346e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NYAN_dots/Sprites/Other16/White/White_Scratch.png using Guid(a521c96aceb10704ba3ebf9eedab346e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17bbec76d04896416bcb3ce89dbf4c86') in 0.016919 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/NYAN_dots/Sprites/Other16/White/White_Sway.png
-  artifactKey: Guid(9ae2ff18bba486f4f95564aec43cc9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NYAN_dots/Sprites/Other16/White/White_Sway.png using Guid(9ae2ff18bba486f4f95564aec43cc9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '503b8d9283646f06770c8e4a82c67d66') in 0.015418 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/NYAN_dots/Sprites/Other16/White/White_Fly.png
-  artifactKey: Guid(63d16bbede8ab5a40aaf193fb16b2518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NYAN_dots/Sprites/Other16/White/White_Fly.png using Guid(63d16bbede8ab5a40aaf193fb16b2518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ce13ab4c467b11e6fb35a20eab4376b') in 0.018754 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/NYAN_dots/Sprites/Other16/White/White_Tail.png
-  artifactKey: Guid(ef986dfcaa2674c44a1c38c6ece52400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NYAN_dots/Sprites/Other16/White/White_Tail.png using Guid(ef986dfcaa2674c44a1c38c6ece52400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd39150a285a942d32758ef5f73dc7c0') in 0.015961 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/NYAN_dots/Sprites/Other16/White/White_Lick.png
-  artifactKey: Guid(b4da4a82b1aa4304e93e78b98754d3d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NYAN_dots/Sprites/Other16/White/White_Lick.png using Guid(b4da4a82b1aa4304e93e78b98754d3d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7827f32ee61009a540010b190146f29a') in 0.014937 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.513460 seconds.
-  path: Assets/NYAN_dots/Sprites/Other16/Tabby/Tabby_Blink.png
-  artifactKey: Guid(4995275826b2ca342b000ff8802e9f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NYAN_dots/Sprites/Other16/Tabby/Tabby_Blink.png using Guid(4995275826b2ca342b000ff8802e9f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75704a65d107f4eba026f017746a80e3') in 0.017850 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/NYAN_dots/Sprites/Other16/Tabby/Tabby_Tail.png
-  artifactKey: Guid(ae405a4ede7a74d4982b37beceee7769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NYAN_dots/Sprites/Other16/Tabby/Tabby_Tail.png using Guid(ae405a4ede7a74d4982b37beceee7769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b700725101df9b772dcd3ece0f9bb5') in 0.017031 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/NYAN_dots/Sprites/Other16/Tabby/Tabby_Sway.png
-  artifactKey: Guid(50becb3efede4074588d3a1062f32c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NYAN_dots/Sprites/Other16/Tabby/Tabby_Sway.png using Guid(50becb3efede4074588d3a1062f32c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e70585003c9116b23e0e3bb2774c86a6') in 0.017697 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/NYAN_dots/Sprites/Other16/Tabby/Tabby_Sleep2.png
-  artifactKey: Guid(f2e32e4aab05bf64db34e25bcd189ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NYAN_dots/Sprites/Other16/Tabby/Tabby_Sleep2.png using Guid(f2e32e4aab05bf64db34e25bcd189ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153513bd307b90a540f7695c723db70e') in 0.016203 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/NYAN_dots/Sprites/Other16/Tabby/Tabby_Relax.png
-  artifactKey: Guid(2c517d0006680a844b60dff06b2c54ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NYAN_dots/Sprites/Other16/Tabby/Tabby_Relax.png using Guid(2c517d0006680a844b60dff06b2c54ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a86f8bc731ce716963e939e8d85ad73') in 0.016351 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.847908 seconds.
-  path: Assets/NYAN_dots/Sprites/Other16/Glay/Glay_Blink.png
-  artifactKey: Guid(1b745c4f9cf16714a99f54751da933f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NYAN_dots/Sprites/Other16/Glay/Glay_Blink.png using Guid(1b745c4f9cf16714a99f54751da933f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd9bd5b80ddda278ed6c8d4de4cee78b') in 0.017934 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/NYAN_dots/Sprites/Other16/Glay/Glay_Sleep2.png
-  artifactKey: Guid(174a297cb34524f4bbd29ad656426cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NYAN_dots/Sprites/Other16/Glay/Glay_Sleep2.png using Guid(174a297cb34524f4bbd29ad656426cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '488cdb3d63d8aae852e0f7b40b597c0c') in 0.017207 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/NYAN_dots/Sprites/Other16/Glay/Glay_Ennui.png
-  artifactKey: Guid(7e51de68b4a61e947afc81bf4ead491a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NYAN_dots/Sprites/Other16/Glay/Glay_Ennui.png using Guid(7e51de68b4a61e947afc81bf4ead491a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd87012aafdc63e7be1eb444ebcaa78e') in 0.015988 seconds 
+  path: Assets/WeChat Image_20221122220638.jpg
+  artifactKey: Guid(f511f29228d536c47a16725caad59507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeChat Image_20221122220638.jpg using Guid(f511f29228d536c47a16725caad59507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10a277e83a95f54ded82d1d8b369c197') in 0.081909 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000024 seconds.
-  path: Assets/NYAN_dots/Sprites/Other16/Glay/Glay_Fly.png
-  artifactKey: Guid(cec3e1a6a1b159148a1f9fdb6dff5377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NYAN_dots/Sprites/Other16/Glay/Glay_Fly.png using Guid(cec3e1a6a1b159148a1f9fdb6dff5377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f11bdfc7371f6b908a4c6586de5aee') in 0.015595 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/NYAN_dots/Sprites/Other16/Glay/Glay_Tail.png
-  artifactKey: Guid(520524e3b49a9c54d887409eb1908e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NYAN_dots/Sprites/Other16/Glay/Glay_Tail.png using Guid(520524e3b49a9c54d887409eb1908e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc3a7641f5bb20e5e34f9bd854c209f8') in 0.017271 seconds 
+  path: Assets/WeChat Image_20221122220629.jpg
+  artifactKey: Guid(9f91419a9c905dd45a1818ff0d4dd910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeChat Image_20221122220629.jpg using Guid(9f91419a9c905dd45a1818ff0d4dd910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b21f73e6ca2586e26670929d17c2a8b') in 0.183047 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
