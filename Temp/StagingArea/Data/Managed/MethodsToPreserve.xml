@@ -1,0 +1,15 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="About">
+			<method name="BackToStartScene"/>
+			<method name="PressAbout"/>
+		</type>
+		<type fullname="End">
+			<method name="EndGame"/>
+			<method name="EndGame"/>
+		</type>
+		<type fullname="Start">
+			<method name="StartGame"/>
+		</type>
+	</assembly>
+</linker>
