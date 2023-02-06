@@ -15,7 +15,7 @@ C:/Users/wei/UnityProject/CattyGoHome
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56172
+56523
 Successfully changed project path to: C:/Users/wei/UnityProject/CattyGoHome
 C:/Users/wei/UnityProject/CattyGoHome
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/wei/UnityProject/CattyGoHome
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 230.31 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 78.90 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.8f1 (b30333d56e81)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -63,54 +63,53 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56280
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56380
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.274854 seconds.
+Registered in 0.003264 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 82.00 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 68.61 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.622 seconds
+- Completed reload, in  0.474 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4622ms)
-		BeginReloadAssembly (2785ms)
+	ReloadAssembly (474ms)
+		BeginReloadAssembly (49ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1244ms)
-			LoadAssemblies (2792ms)
+		EndReloadAssembly (352ms)
+			LoadAssemblies (49ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (798ms)
+			SetupTypeCache (72ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (366ms)
+			SetupLoadedEditorAssemblies (220ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (154ms)
+				InitializePlatformSupportModulesInManaged (47ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (82ms)
+				RefreshPlugins (69ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (86ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
+				ProcessInitializeOnLoadAttributes (73ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.873586 seconds.
-Android Extension - Scanning For ADB Devices 4683 ms
+Registered in 0.004211 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\wei\UnityProject\CattyGoHome\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\wei\UnityProject\CattyGoHome\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -118,5 +117,118 @@ Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 81.01 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 85.23 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.980 seconds
+Domain Reload Profiling:
+	ReloadAssembly (981ms)
+		BeginReloadAssembly (185ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (115ms)
+		EndReloadAssembly (716ms)
+			LoadAssemblies (56ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (167ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (409ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (85ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (197ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.62 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4088 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (180.9 KB). Loaded Objects now: 4543.
+Memory consumption went from 154.3 MB to 154.1 MB.
+Total: 3.093300 ms (FindLiveObjects: 0.198400 ms CreateObjectMapping: 0.108900 ms MarkObjects: 2.668400 ms  DeleteObjects: 0.116800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 287723.118456 seconds.
+  path: Assets/Scenes/Scene 2.unity
+  artifactKey: Guid(3d8f3cb6f0fb0fc45b23669ead458d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene 2.unity using Guid(3d8f3cb6f0fb0fc45b23669ead458d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a7c48867ddc1724663a68939a37c70') in 0.008602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.590936 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/Pink.png
+  artifactKey: Guid(348c3b734b11d3b4aa5c69e25b7113e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/Pink.png using Guid(348c3b734b11d3b4aa5c69e25b7113e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0459930cfe75b3f6e94463311de1babb') in 0.078635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.815314 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/Pink.png
+  artifactKey: Guid(348c3b734b11d3b4aa5c69e25b7113e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/Pink.png using Guid(348c3b734b11d3b4aa5c69e25b7113e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55272ae68aaf333920b341281b2a27ae') in 0.007595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.971778 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/Pink.png
+  artifactKey: Guid(348c3b734b11d3b4aa5c69e25b7113e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/Pink.png using Guid(348c3b734b11d3b4aa5c69e25b7113e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c2fa0c10ac87c85747b1a58ac71473') in 0.041033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1249.743526 seconds.
+  path: Assets/Prefabs/Terrain.prefab
+  artifactKey: Guid(6cc25fb24e5713846a49c7a2f73a62fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Terrain.prefab using Guid(6cc25fb24e5713846a49c7a2f73a62fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf46e78c7d428fae992aaae5e590ae5') in 0.069214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 565.516444 seconds.
+  path: Assets/WeChat Image_20221122220555.jpg
+  artifactKey: Guid(8525ee7e8c11f0942ab1da57316c9c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeChat Image_20221122220555.jpg using Guid(8525ee7e8c11f0942ab1da57316c9c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9bb25ee37434b9eeef67a7ccbbbb2a6') in 0.267658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/WeChat Image_20221122220619.jpg
+  artifactKey: Guid(316b880c3ffb34244b16e886803ba5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeChat Image_20221122220619.jpg using Guid(316b880c3ffb34244b16e886803ba5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62769843d0396799d2ceaa9a526bec4e') in 0.281365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/WeChat Image_20221122220642.jpg
+  artifactKey: Guid(fb20881db1525bf479e89b6bcad6f308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeChat Image_20221122220642.jpg using Guid(fb20881db1525bf479e89b6bcad6f308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1587bb5ac6cf73d15f21af76b0ac05eb') in 0.040920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/WeChat Image_20221122220638.jpg
+  artifactKey: Guid(f511f29228d536c47a16725caad59507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeChat Image_20221122220638.jpg using Guid(f511f29228d536c47a16725caad59507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10a277e83a95f54ded82d1d8b369c197') in 0.081909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/WeChat Image_20221122220629.jpg
+  artifactKey: Guid(9f91419a9c905dd45a1818ff0d4dd910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WeChat Image_20221122220629.jpg using Guid(9f91419a9c905dd45a1818ff0d4dd910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b21f73e6ca2586e26670929d17c2a8b') in 0.183047 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

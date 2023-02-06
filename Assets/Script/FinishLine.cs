@@ -8,7 +8,17 @@ public class FinishLine : MonoBehaviour
 
     [SerializeField] private AudioSource finishSoundEffect;
     [SerializeField] private GameObject dialogPanel;
+    [SerializeField] private GameObject BGM;
+    [SerializeField] private float volumeChangeDuration;
+    private float originalVolume;
+    private float elapsedTime = 0;
     private bool levelCompleted = false;
+
+    private void Start()
+    {
+        originalVolume = BGM.GetComponent<AudioSource>().volume;
+    }
+
 
     private void Update()
     {
@@ -16,6 +26,12 @@ public class FinishLine : MonoBehaviour
         {
             Invoke("LevelCompleted", 2f);
         }
+        if (levelCompleted==true && SceneManager.GetActiveScene().name == "Scene 2")
+        {
+            elapsedTime += Time.deltaTime;
+            LowerBGMVolume();
+        }
+        
     }
 
 
@@ -30,6 +46,8 @@ public class FinishLine : MonoBehaviour
             if (SceneManager.GetActiveScene().name == "Scene 2")
             {
                 GameObject.Find("PLayer").GetComponent<PLayerMovement>().End();
+
+                
             }
         }
     }
@@ -42,6 +60,12 @@ public class FinishLine : MonoBehaviour
     private void LevelCompleted()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    private void LowerBGMVolume()
+    {
+        
+        BGM.GetComponent<AudioSource>().volume = Mathf.Lerp(originalVolume, 0f, elapsedTime / volumeChangeDuration);
     }
 
 
